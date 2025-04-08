@@ -42,7 +42,7 @@ export default function NQueen() {
 			<div style={{ marginTop: '100px' }}>
 				<div>
 					<label>
-						Grid ize: {gridSize} X {gridSize}
+						Grid : {gridSize} X {gridSize}
 						<input id='rangeSlider' type='range' min='4' max='16' value={gridSize} onChange={(e) => (setGridd(e))} />
 					</label>
 					<br />
